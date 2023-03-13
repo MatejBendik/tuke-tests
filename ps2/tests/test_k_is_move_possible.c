@@ -68,10 +68,10 @@ TEST test_if_move_is_possible_d() {
 TEST test_if_move_is_possible_not_possible(){
     struct game game = {
         .board = {
-            {'A', 'C', 'B', 'C'},
-            {'C', 'B', 'D', 'A'},
-            {'A', 'D', 'C', 'B'},
-            {'C', 'B', 'A', 'D'}
+            {'A', 'B', 'C', 'D'},
+            {'E', 'F', 'G', 'H'},
+            {'I', 'J', 'K', 'A'},
+            {'B', 'C', 'D', 'E'}
         },
         .score = 0
     };
