@@ -28,4 +28,10 @@ Start tests
   make tests
 ```
 
+## To update tests: 
+
+```bash
+  git pull
+  or remove and clone repo again (git clone https://github.com/MatejBendik/tuke_tests)
+```
 
