@@ -10,6 +10,12 @@ Go to the project directory
   cd tuke_tests
 ```
 
+Go to the specific subject folder e.g. prg
+
+```bash
+  cd prg
+```
+
 Go to the specific problem set e.g. ps2
 
 ```bash
@@ -32,6 +38,5 @@ Start tests
 
 ```bash
   git pull
-  or remove and clone repo again (git clone https://github.com/MatejBendik/tuke_tests)
 ```
 
