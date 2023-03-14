@@ -31,7 +31,7 @@ Paste your solution e.g. k.c
 Start tests
 
 ```bash
-  make tests
+  make test
 ```
 
 ## To update tests: 
