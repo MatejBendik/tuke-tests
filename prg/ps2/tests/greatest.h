@@ -1265,4 +1265,18 @@ greatest_run_info greatest_info
 
 #endif
 
-
+#define print_game_board(size, matrix)                                  \
+    do {                                                        \
+        printf("{\n");                                          \
+        for (int row = 0; row < 4; row++) {                  \
+            printf("\t{");                                      \
+            for (int column = 0; column < 4; column++) {  \
+                printf("'%c'", matrix[row][column]);              \
+                if (column < 4 - 1) {                     \
+                    printf(", ");                               \
+                }                                               \
+            }                                                   \
+            printf("}\n");                                      \
+        }                                                       \
+        printf("}\n");                                          \
+    } while(0)
