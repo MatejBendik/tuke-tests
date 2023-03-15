@@ -34,6 +34,12 @@ Start tests
   make test
 ```
 
+Clean .o files
+
+```bash
+  make clean
+```
+
 ## To update tests: 
 
 ```bash
