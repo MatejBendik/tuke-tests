@@ -22,7 +22,7 @@ Go to the specific problem set e.g. ps2
   cd ps2
 ```
 
-Paste your solution e.g. k.c
+Paste your solutions (make sure to paste all .c files you've made) e.g. k.c
 
 ```bash
   cp ~/path/to/k.c k.c
