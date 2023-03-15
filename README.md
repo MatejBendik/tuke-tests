@@ -40,9 +40,8 @@ Clean .o files
   make clean
 ```
 
-## To update tests: 
+## To update tests:
 
 ```bash
   git pull
 ```
-
